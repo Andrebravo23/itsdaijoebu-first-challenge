@@ -1,0 +1,39 @@
+body {
+    background-color: gray; 
+}
+
+.container {
+    width: 750px;
+    border: 5px solid #274226;
+    background-color: white;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.tall-div {
+    height: 500px;
+    width: 250px;
+}
+
+.thick-div {
+    width: 500px;
+    height: 250px;
+}
+
+div > div {
+    background-color: #84E082;
+    float: left;
+}
+
+div > div + div {
+    background-color: #75C773;
+}
+
+div > div + div + div { 
+    background-color: #5EA15D;
+    float: right;
+}
+
+div > div + div + div + div {
+    background-color: #396138;
+}
